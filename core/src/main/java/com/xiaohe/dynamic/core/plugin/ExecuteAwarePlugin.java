@@ -4,7 +4,7 @@ package com.xiaohe.dynamic.core.plugin;
 /**
  * 任务执行增强插件
  */
-public interface ExecutorAwarePlugin extends ThreadPoolPlugin {
+public interface ExecuteAwarePlugin extends ThreadPoolPlugin {
 
     /**
      * 任务执行前调用

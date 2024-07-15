@@ -1,13 +1,13 @@
 package com.xiaohe.dynamic.core.plugin.impl;
 
 
-import com.xiaohe.dynamic.core.plugin.ExecutorAwarePlugin;
+import com.xiaohe.dynamic.core.plugin.ExecuteAwarePlugin;
 import com.xiaohe.dynamic.core.toolkit.SystemClock;
 
 /**
  * mark任务的开始和结束时间，交给用户处理
  */
-public abstract class AbstractTaskTimerPlugin implements ExecutorAwarePlugin {
+public abstract class AbstractTaskTimerPlugin implements ExecuteAwarePlugin {
 
     /**
      * 该任务执行开始时间
