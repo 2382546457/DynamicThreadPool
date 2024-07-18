@@ -79,6 +79,7 @@ public class DefaultGlobalThreadPoolPluginManager implements GlobalThreadPoolPlu
         if (Objects.nonNull(removed)) {
             managedThreadPoolPluginSupports.values().forEach(support -> support.unregister(pluginId));
         }
+
         return removed;
     }
 
